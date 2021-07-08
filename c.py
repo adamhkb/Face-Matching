@@ -85,6 +85,6 @@ while True:
     URL2 = []
     # logger = logging.getLogger(__name__)
     METHOD = 'GET'
-    EXPIRES_IN = 30
+    EXPIRES_IN = 2592000
     generate_presigned_url(mydb = MYDB, client_method = METHOD, expires_in = EXPIRES_IN)
     time.sleep(EXPIRES_IN)
